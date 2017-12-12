@@ -1,2 +1,0 @@
-# virtusarepo
-Virtusa Repository 
