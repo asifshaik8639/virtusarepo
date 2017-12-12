@@ -1,0 +1,39 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    font-family: "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0 10% 10%;
+}
+b {
+    color: #666;
+}
+
+h1 {
+    font-size: 23px;
+    color: #FFC200;
+    margin-top: 0;
+}
+
+ul li {
+    color: #888;
+
+}
+
+#app {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  min-width: 550px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+a.active {
+  color: orange;
+}
+
+nav {
+  padding-top: 20px;
+}

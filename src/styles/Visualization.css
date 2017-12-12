@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.chart-header {
+   margin: 0;
+}
+.Visualization {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.Visualization-Form {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: auto;
+  right: 20px;
+  height: 40px;
+}
+
+.Visualization-Form-Input {
+  margin-right: 10px;
+  padding: 5px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid #999;;
+  background: white;
+}
+
+.Visualization-Form-Button {
+  padding: 5px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid #999;
+  background: white;
+}
+
+.Visualization-Container {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+ 
+}
+
+.Visualization-Canvas {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #999;
+}

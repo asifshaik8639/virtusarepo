@@ -1,0 +1,56 @@
+.tableStyle {          
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #ccc;
+}
+      
+  
+.data  {        
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+
+.buttonStyle  {
+    background-color: #FFC200;
+    border : none;
+    color: black;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;       
+}
+
+.header {
+    text-align : center;
+    padding: 8px;        
+    color: black;
+    border-bottom: 2px solid #ccc;
+}   
+
+.rootContainer {
+    width: 100%;
+    display: table;
+    margin-bottom: 15px;
+}
+
+
+.tableborder {
+    border: 1px solid #ccc;
+    display: table;
+    width: 100%;
+}
+
+.rootHeaderStyle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.minification-container {
+    width: 80%;
+    height: auto;
+}
