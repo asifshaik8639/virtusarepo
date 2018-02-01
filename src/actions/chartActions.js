@@ -1,6 +1,8 @@
 import * as types from './actionTypes';
 import chartApi from '../api/mockChartApi';
 import { beginAjaxCall, ajaxCallError } from './ajaxStatusActions';
+
+
 /* eslint-disable no-console */
 export function loadChartSuccess(chartData) {
  

@@ -7,7 +7,8 @@ import '../../../node_modules/toastr/build/toastr.min.css';
 import toastr from '../../../node_modules/toastr/toastr.js';
 let intialResultLength = 0;
 
-class ReduxSagaPage extends React.Component {
+
+export class ReduxSagaPage extends React.Component {
      constructor(props) {
          super(props);
          this.buttonClickHandler = this.buttonClickHandler.bind(this);

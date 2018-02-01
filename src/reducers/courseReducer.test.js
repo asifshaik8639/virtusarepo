@@ -3,6 +3,12 @@ import courseReducer from './courseReducer';
 import * as actions from '../actions/courseActions';
 
 describe('Course Reducer', () => {
+    
+  it('should return the initial state', () => {
+    expect(courseReducer(undefined, {})).toEqual([]);
+    
+  });
+    
   it('should add course when passed CREATE_COURSE_SUCCESS', () => {
     const initialState = [
       {title: 'A'},

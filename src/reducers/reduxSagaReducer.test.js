@@ -15,6 +15,12 @@ const initialState = {
     };
 
 describe('reduxSaga Reducer', () => {
+    
+  it('should return the initial state', () => {
+    expect(reduxSagaReducer(undefined, {})).toEqual(initialState);
+    
+  });
+    
   it('should update the values of loadiing,loaded when passed FETCH_SAGA_INITIATED', () => {
     const action = { type: 'FETCH_SAGA_INITIATED' };      
     const newState = reduxSagaReducer(initialState, action);

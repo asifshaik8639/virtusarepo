@@ -26,6 +26,7 @@ describe('Chart Actions', () => {
   });
 });
 
+
 const middleware = [thunk];
 const mockStore = configureMockStore(middleware);
 

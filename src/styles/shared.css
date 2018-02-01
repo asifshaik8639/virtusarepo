@@ -1,0 +1,25 @@
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.parent-container-cls {
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.margin-cls {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.span-cls {
+    display: inline-block;
+    width: 75%;
+    font-weight: bold;
+}
+
+Link {
+    width: 25%;
+}

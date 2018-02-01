@@ -6,7 +6,7 @@ import * as chartActions from '../../actions/chartActions';
 import { browserHistory } from 'react-router';
 import Rpick from '../../../node_modules/ramda/src/pick';
 import VisualizationChart from './VisualizationChart';
-import '../../styles/shared.scss';
+import '../../styles/shared.css';
 
 class ChartsPage extends React.Component {
   constructor(props) {

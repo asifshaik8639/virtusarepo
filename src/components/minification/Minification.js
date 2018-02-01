@@ -1,5 +1,5 @@
 import React from 'react';
-import htmlContent from '../../../dist/prod/stats/statistics.html';
+//import htmlContent from '../../../dist/prod/stats/statistics.html';
 import renderHTML from 'react-render-html';
 
 class Minification extends React.Component {

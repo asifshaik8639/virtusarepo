@@ -5,11 +5,11 @@ import LoadingDots from './LoadingDots';
 const Header = ({loading}) => {
   return (
     <nav>
-      <IndexLink to="/" activeClassName="active">Home</IndexLink>
+      <Link to="/home" activeClassName="active">Home</Link>
       {" | "}
-      <Link to="/about" activeClassName="active">About</Link>
+      <IndexLink to="/" activeClassName="active">Switch</IndexLink>
       {" | "}
-      <Link to="/courses" activeClassName="active">Courses</Link>
+      <Link to="/courses" activeClassName="active">Redux Thunk</Link>
       {loading && <LoadingDots interval={100} dots={20} />}
       {" | "}
       <Link to="/reduxobservables" activeClassName="active">Redux Observables</Link>
@@ -18,11 +18,9 @@ const Header = ({loading}) => {
       <Link to="/reduxsaga" activeClassName="active">Redux Saga</Link>
       {loading && <LoadingDots interval={100} dots={20} />}
        {" | "}
-      <Link to="/charts" activeClassName="active">Charts</Link>
+      <Link to="/charts" activeClassName="active">D3 Charts</Link>
       {loading && <LoadingDots interval={100} dots={20} />}
-      {" | "}
-      <Link to="/minification" activeClassName="active">App Minification Pie Chart</Link>
-      {loading && <LoadingDots interval={100} dots={20} />}
+    
     </nav>
   );
 };
