@@ -16,18 +16,5 @@ import {mount, shallow} from 'enzyme';
 import { ReduxSagaPage } from './ReduxSagaPage';
 
 xdescribe('ReduxSagaPage', () => {
-  it('sets error message when trying to save empty title', () => {
-    const props = {
-        resultObj: [],
-        errorMessage: 'error occured',  
-        dataLoading: false,
-        dataLoaded: false
-      //,actions: { saveCourse: () => Promise.resolve() }
-    };
-    const enzymeWrapper = mount(<ReduxSagaPage {...props}/>);
-    const clickButton = enzymeWrapper.find('input');
-    expect(clickButton.prop('type')).toBe('button');
-    clickButton.simulate('click');
-    //expect(enzymeWrapper.state().errors.title).toBe('Title must be at least 5 characters');
-  });
+ //TO DO
 });
